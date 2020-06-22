@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="23059f32-0145-4897-844b-480f3b9c469f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1d5H0tD6bsZESzmtaFu9oucxeXB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\phytoncod\pycharm\PageObject_autotests\tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test_x2">
+    <configuration name="start" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="PageObject_autotests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\phytoncod\pycharm\PageObject_autotests" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="start.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_x" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PageObject_autotests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\phytoncod\pycharm\PageObject_autotests\tests\test_x.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_x2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PageObject_autotests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\phytoncod\pycharm\PageObject_autotests\tests\test_x2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_x2" />
+        <item itemvalue="Batch.start" />
+        <item itemvalue="Python.test_x" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23059f32-0145-4897-844b-480f3b9c469f" name="Default Changelist" comment="" />
+      <created>1591707814165</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591707814165</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="514" y="16" key="#test_x" timestamp="1591709003198">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="514" y="16" key="#test_x/0.0.1536.824@0.0.1536.824" timestamp="1591709003198" />
+    <state x="579" y="179" key="FileChooserDialogImpl" timestamp="1592830871142">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="579" y="179" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592830871142" />
+    <state width="1336" height="195" key="GridCell.Tab.0.bottom" timestamp="1591818147090">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1336" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591818147090" />
+    <state width="1336" height="195" key="GridCell.Tab.0.center" timestamp="1591818147090">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1336" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591818147090" />
+    <state width="1336" height="195" key="GridCell.Tab.0.left" timestamp="1591818147090">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1336" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591818147090" />
+    <state width="1336" height="195" key="GridCell.Tab.0.right" timestamp="1591818147090">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1336" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591818147090" />
+    <state width="668" height="242" key="GridCell.Tab.1.bottom" timestamp="1591713120734">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="668" height="242" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591713120734" />
+    <state width="668" height="242" key="GridCell.Tab.1.center" timestamp="1591713120734">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="668" height="242" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591713120734" />
+    <state width="668" height="242" key="GridCell.Tab.1.left" timestamp="1591713120734">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="668" height="242" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591713120734" />
+    <state width="668" height="242" key="GridCell.Tab.1.right" timestamp="1591713120734">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="668" height="242" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591713120734" />
+    <state x="307" y="69" key="SettingsEditor" timestamp="1592828947072">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="307" y="69" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592828947072" />
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592212738707">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592212738707" />
+  </component>
+</project>
