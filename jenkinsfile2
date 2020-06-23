@@ -45,7 +45,7 @@ pipeline {
     }
     stage('test') {
       steps {
-        sh 'python test.py'
+        bat 'pytest'
       }
       post {
         always {
