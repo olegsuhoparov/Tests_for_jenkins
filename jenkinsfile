@@ -1,6 +1,6 @@
 node {
     stage 'Clone the project'
-    git 'https://github.com/eugenp/tutorials.git'
+    git 'https://github.com/olegsuhoparov/Tests_for_jenkins.git'
 
     dir('tests') {
         stage("Compilation and Analysis") {
