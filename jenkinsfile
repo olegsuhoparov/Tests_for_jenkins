@@ -8,9 +8,9 @@ node {
             stage("Running unit tests") {
                 try {
                     if (isUnix()) {
-                        sh "pytest test_x3.py"
+                        sh "pytest"
                     } else {
-                        bat "pytest test_x3.py"
+                        bat "pytest"
                     }
                 } catch(err) {
                     step([$class: 'JUnitResultArchiver', testResults: '**/target/surefire-reports/TEST-*UnitTest.xml'])
