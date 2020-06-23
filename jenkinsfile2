@@ -1,28 +1,17 @@
+cat <<-'JENKINSFILE' > Jenkinsfile
 pipeline {
-    agent any
-
-    stages {
-        stage('1-Build') {
-            steps {
-                echo "Start of Stage Build"
-                echo "Building......."
-                echo "End of Stage Build"
-            }
-        }
-        stage('2-Test') {
-            steps {
-                echo "Start of Stage Test"
-                bat "cd tests"
-                bat "pytest test_x.py"
-                echo "End of Stage Build"
-            }
-        }
-        stage('3-Deploy') {
-            steps {
-                echo "Start of Stage Deploy"
-                echo "Deploying......."
-                echo "End of Stage Build"
-            }
-        }
+  agent { docker { image 'python:3.8.2' } }
+  stages {
+    stage('build') {
+      steps {
+        bat 'pip install -r requirements.txt'
+      }
     }
+    stage('test') {
+      steps {
+        bat 'pytest'
+      }   
+    }
+  }
 }
+JENKINSFILE
