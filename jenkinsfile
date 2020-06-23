@@ -1,3 +1,5 @@
+-Dfile.encoding=UTF8
+
 node {
     stage 'Clone the project'
     git 'https://github.com/olegsuhoparov/Tests_for_jenkins.git'
