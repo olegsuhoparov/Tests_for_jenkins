@@ -1,6 +1,3 @@
-Scanner sc = new Scanner(System.in,"utf-8");
-System.setProperty("console.encoding","utf-8");
-
 node {
     stage 'Clone the project'
     git 'https://github.com/olegsuhoparov/Tests_for_jenkins.git'
