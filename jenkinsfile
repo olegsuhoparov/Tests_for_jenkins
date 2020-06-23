@@ -10,9 +10,8 @@ node {
                     if (isUnix()) {
                         sh "pytest test_x3.py"
                     } else {
-                        bat "chcp 65001"
+                        bat "chcp 1251"
                         bat "pytest test_x3.py"
-                        bat "chcp 65001"
                     }
                 } catch(err) {
                     step([$class: 'JUnitResultArchiver', testResults: '**/target/surefire-reports/TEST-*UnitTest.xml'])
