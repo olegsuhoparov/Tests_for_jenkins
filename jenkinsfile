@@ -5,18 +5,16 @@ node {
     dir('tests') {
 
         stage("Tests and Deployment") {
-            parallel 'Unit tests': {
-                stage("Running unit tests") {
-                    try {
-                        if (isUnix()) {
-                            sh "./mvnw pytest"
-                        } else {
-                            bat "./mvnw.cmd pytest"
-                        }
-                    } catch(err) {
-                        step([$class: 'JUnitResultArchiver', testResults: '**/target/surefire-reports/TEST-*UnitTest.xml'])
-                        throw err
+            stage("Running unit tests") {
+                try {
+                    if (isUnix()) {
+                        sh "./mvnw pytest"
+                    } else {
+                        bat "./mvnw.cmd pytest"
                     }
+                } catch(err) {
+                    step([$class: 'JUnitResultArchiver', testResults: '**/target/surefire-reports/TEST-*UnitTest.xml'])
+                    throw err
                 }
             }
         }
