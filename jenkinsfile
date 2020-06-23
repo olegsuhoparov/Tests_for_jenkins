@@ -10,7 +10,7 @@ node {
                     if (isUnix()) {
                         sh "pytest test_x3.py"
                     } else {
-                        bat "chcp 1251"
+                        bat "chcp 65001"
                         bat "pytest test_x3.py"
                     }
                 } catch(err) {
