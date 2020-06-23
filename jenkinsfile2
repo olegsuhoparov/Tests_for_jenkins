@@ -12,6 +12,7 @@ pipeline {
         stage('2-Test') {
             steps {
                 echo "Start of Stage Test"
+                bat "cd tests"
                 bat "pytest test_x.py"
                 echo "End of Stage Build"
             }
