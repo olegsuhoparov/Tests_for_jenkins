@@ -1,5 +1,3 @@
--Dfile.encoding=UTF8
-
 node {
     stage 'Clone the project'
     git 'https://github.com/olegsuhoparov/Tests_for_jenkins.git'
@@ -12,7 +10,7 @@ node {
                     if (isUnix()) {
                         sh "pytest"
                     } else {
-                        bat "pytest"
+                        bat "pytest test_x5.py"
                     }
                 } catch(err) {
                     step([$class: 'JUnitResultArchiver', testResults: '**/target/surefire-reports/TEST-*UnitTest.xml'])
