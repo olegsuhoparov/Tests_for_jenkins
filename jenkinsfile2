@@ -9,7 +9,6 @@ pipeline {
         stage('1-Build') {
             steps {
                 bat "python –version"
-                bat "pip install -r requirements.txt"
                 echo "End of Stage Build..."
             }
         }
