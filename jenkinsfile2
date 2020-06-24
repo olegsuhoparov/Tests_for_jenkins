@@ -10,6 +10,7 @@ pipeline {
             steps {
                 echo "Start of Stage Build..."
                 echo "Building......."
+                bat "pip install -r requirements.txt"
                 echo "End of Stage Build..."
             }
         }
@@ -19,18 +20,11 @@ pipeline {
                 echo "Testing......."
                 echo "Privet ${PROJECT_NAME}"
                 echo "Owner is ${OWNER_NAME}"
-                echo "End of Stage Build..."
-            }
-        }
-        stage('3-Deploy') {
-            steps {
-                echo "Start of Stage Deploy..."
-                echo "Deploying......."
                 bat "pytest"
                 echo "End of Stage Build..."
             }
         }
-        stage('4-Celebrate') {
+        stage('3-Celebrate') {
             steps {
                 echo "CONGRATULYACIYA!"
             }
