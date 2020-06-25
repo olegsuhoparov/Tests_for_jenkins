@@ -15,8 +15,15 @@ pipeline {
         stage('2-Test') {
             steps {
                 bat 'cd tests && pytest test_x.py'
-                allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
             }
         }	
+    }
+    post {
+        always {
+               bat '''
+               chmod -R o+xw allure-results
+               allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
+               '''
+        }
     }
 }
