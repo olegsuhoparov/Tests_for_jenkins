@@ -1,14 +1,11 @@
 pipeline {
-    agent any
-    virtualenv venv --distribute
-    cd . venv/Scripts/activate 
-    pip install -r requirements.txt
-    python tests.py
-    stages {
-        stage('build') {
-            steps {
-               bat 'pytest'
-            }
-        }
-    }
+    stage('test') {
+     agent {
+          docker {
+               image 'qnib/pytest'
+          }
+     }
+     steps {
+          sh 'virtualenv venv && . venv/bin/activate && pip install -r requirements.txt && python tests.py'
+     }
 }
