@@ -2,8 +2,6 @@ pipeline {
     agent any
     environment {
       PROJECT_NAME = "Neptun"
-      virtualenv venv --distribute
-      pip install -r requirements.txt
     }
 
     stages {
