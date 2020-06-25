@@ -21,7 +21,6 @@ pipeline {
     post {
         always {
                bat '''
-               chmod -R o+xw allure-results
                allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
                '''
         }
