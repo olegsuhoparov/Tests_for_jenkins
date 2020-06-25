@@ -10,7 +10,6 @@ pipeline {
                 echo "Start of Stage Build..."
                 echo "Building......."
                 echo %PATH%
-                echo "End of Stage Build..."
             }
         }
         stage('2-Test') {
