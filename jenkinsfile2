@@ -9,7 +9,7 @@ pipeline {
             steps {
                 echo "Start of Stage Build..."
                 echo "Building......."
-                bat "pip install -r requirements.txt"
+                bat "python setup.py install"
                 echo "End of Stage Build..."
             }
         }
