@@ -1,5 +1,8 @@
 pipeline {
     agent any
+        tools {
+        python 'python-3.8.2'
+    }
     environment {
       PROJECT_NAME = "Neptun"
       OWNER_NAME   = "Denis Astahov"
