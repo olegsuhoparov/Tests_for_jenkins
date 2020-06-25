@@ -3,10 +3,10 @@ pipeline {
     stages {
         stage('build') {
             steps {
-               virtualenv venv --distribute
-               venv/scripts/activate 
-               pip install -r requirements.txt
-               pytest
+               bat 'virtualenv venv --distribute'
+               bat 'venv/scripts/activate'
+               bat 'pip install -r requirements.txt'
+               bat 'pytest'
             }
         }
     }
