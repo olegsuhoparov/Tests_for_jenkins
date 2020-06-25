@@ -1,22 +1,27 @@
-
 pipeline {
     agent any
     environment {
       PROJECT_NAME = "Neptun"
-      OWNER_NAME   = "Denis Astahov"
     }
 
     stages {
-    
-        stage('test') {
-            agent {
-                docker {
-                    image 'qnib/pytest'
-                }
-            }
+        stage('1-Build') {
             steps {
-              bat 'virtualenv venv && . venv/bin/activate && pip install -r requirements.txt && python --v'
+                echo "Start of Stage Build..."
+                echo "Building......."
+                python --version
+                pip --v
+                echo "End of Stage Build..."
             }
         }
+        stage('2-Test') {
+            steps {
+                echo "Start of Stage Test..."
+                echo "Testing......."
+                echo "Privet ${PROJECT_NAME}"
+                echo "Owner is ${OWNER_NAME}"
+                echo "End of Stage Build..."
+            }
+        }	
     }
 }
