@@ -2,7 +2,6 @@ pipeline {
     agent { docker { image 'python:3.8.2' } }
     environment {
       PROJECT_NAME = "Neptun"
-      OWNER_NAME   = "Denis Astahov"
     }
 
     stages {
@@ -17,7 +16,6 @@ pipeline {
                 echo "Start of Stage Test..."
                 echo "Testing......."
                 echo "Privet ${PROJECT_NAME}"
-                echo "Owner is ${OWNER_NAME}"
                 bat "pytest"
                 echo "End of Stage Build..."
             }
