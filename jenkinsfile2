@@ -1,11 +1,12 @@
 pipeline {
-    agent { docker { image 'python:3.8.2' } }
+    agent any
+    virtualenv venv --distribute
+    . venv/bin/activate 
+    pip install -r requirements.txt
+    python tests.py
     stages {
         stage('build') {
             steps {
-               bat 'virtualenv venv --distribute'
-               bat 'venv/scripts/activate'
-               bat 'pip install -r requirements.txt'
                bat 'pytest'
             }
         }
