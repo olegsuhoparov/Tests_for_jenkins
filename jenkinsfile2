@@ -3,7 +3,6 @@ pipeline {
     environment {
       PROJECT_NAME = "Neptun"
       virtualenv venv --distribute
-      . venv/bin/activate 
       pip install -r requirements.txt
     }
 
@@ -12,7 +11,7 @@ pipeline {
             steps {
                 echo "Start of Stage Build..."
                 echo "Building......."
-                bat "python setup.py install"
+                bat "python --version"
                 echo "End of Stage Build..."
             }
         }
