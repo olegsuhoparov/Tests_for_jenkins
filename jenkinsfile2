@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                virtualenv venv --distribute
-               . venv/bin/activate 
+               venv/scripts/activate 
                pip install -r requirements.txt
                pytest
             }
