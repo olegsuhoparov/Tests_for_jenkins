@@ -9,8 +9,7 @@ pipeline {
             steps {
                 echo "Start of Stage Build..."
                 echo "Building......."
-                python --version
-                pip --v
+                virtualenv venv --distribute
                 echo "End of Stage Build..."
             }
         }
