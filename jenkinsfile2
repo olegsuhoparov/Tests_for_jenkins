@@ -14,7 +14,7 @@ pipeline {
         }
         stage('2-Test') {
             steps {
-                bat 'cd tests && pytest test_x.py'
+                bat 'pytest -s -v --alluredir allure-results'
             }
         }	
     }
