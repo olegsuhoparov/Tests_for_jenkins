@@ -1,8 +1,5 @@
 pipeline {
-    agent any
-        tools {
-        python 'python3.8'
-    }
+    agent { docker { image 'python:latest' } }
     environment {
       PROJECT_NAME = "Neptun"
       OWNER_NAME   = "Denis Astahov"
