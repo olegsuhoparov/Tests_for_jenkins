@@ -7,8 +7,9 @@ pipeline {
     stages {
         stage('1-Build') {
             steps {
-                bat 'echo %PATH%'
-                bat 'python --version'
+                bat 'python -m venv env'
+                bat 'pip install -r requirements.txt'
+                bat 'pytest --version'
             }
         }
         stage('2-Test') {
