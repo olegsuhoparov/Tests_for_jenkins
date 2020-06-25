@@ -1,7 +1,7 @@
 pipeline {
     agent any
     virtualenv venv --distribute
-    . venv\bin\activate 
+    . venv/Scripts/activate 
     pip install -r requirements.txt
     python tests.py
     stages {
